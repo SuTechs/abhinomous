@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="app-container">
           <Routes>
             <Route path="/" element={<Home />} />
