@@ -1,10 +1,16 @@
+import coffeeImg from '../assets/glimpses/coffee.png';
+import bookshelfImg from '../assets/glimpses/bookshelf.png';
+import mountainsImg from '../assets/glimpses/mountains.png';
+import rainImg from '../assets/glimpses/rain.png';
+import sunsetImg from '../assets/glimpses/sunset.png';
+
 export default function PhotosSection() {
   const photos = [
-    { id: 1, url: '/assets/glimpses/coffee.png', alt: 'Coffee and rain' },
-    { id: 2, url: '/assets/glimpses/bookshelf.png', alt: 'The reading nook' },
-    { id: 3, url: '/assets/glimpses/mountains.png', alt: 'Mountain solitude' },
-    { id: 4, url: '/assets/glimpses/rain.png', alt: 'City rain' },
-    { id: 5, url: '/assets/glimpses/sunset.png', alt: 'Ocean sunset' },
+    { id: 1, url: coffeeImg, alt: 'Coffee and rain' },
+    { id: 2, url: bookshelfImg, alt: 'The reading nook' },
+    { id: 3, url: mountainsImg, alt: 'Mountain solitude' },
+    { id: 4, url: rainImg, alt: 'City rain' },
+    { id: 5, url: sunsetImg, alt: 'Ocean sunset' },
     { id: 6, url: 'https://picsum.photos/id/40/600/800', alt: 'A quiet afternoon' },
     { id: 7, url: 'https://picsum.photos/id/20/600/900', alt: 'The study desk' },
   ];
