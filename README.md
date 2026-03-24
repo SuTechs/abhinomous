@@ -6,6 +6,8 @@
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-Ready-3FCF8E?logo=supabase&logoColor=white)
 
+**Live Demo:** [abhinomous.com](https://abhinomous.com) | [sutechs.github.io/abhinomous](https://sutechs.github.io/abhinomous)
+
 ---
 
 ## ✨ Features
