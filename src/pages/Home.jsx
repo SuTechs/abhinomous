@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main>
       <Helmet>
-        <title>The Introverted Blog</title>
+        <title>Abhinomous | The Introverted Blog</title>
         <meta name="description" content="Books, thoughts, and quiet observations by an introvert." />
-        <meta property="og:title" content="The Introverted Blog" />
+        <meta property="og:title" content="Abhinomous | The Introverted Blog" />
       </Helmet>
 
       <Hero />
@@ -19,7 +19,7 @@ export default function Home() {
       <AboutSection />
 
       <footer className="site-footer">
-        <p>© {new Date().getFullYear()} The Introverted Blog. Built with quiet intention.</p>
+        <p>© {new Date().getFullYear()} Abhinomous | The Introverted Blog. Built with quiet intention.</p>
       </footer>
     </main>
   );

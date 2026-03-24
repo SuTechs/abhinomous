@@ -13,9 +13,21 @@ const AUTH_KEY = 'isAuthenticated';
 export class MockSupabaseService extends ApiService {
   constructor() {
     super();
-    // Seed localStorage with dummy data if empty
-    if (!localStorage.getItem(STORAGE_KEY)) {
+    // Seed localStorage with dummy data if empty or missing new posts
+    const stored = localStorage.getItem(STORAGE_KEY);
+    if (!stored) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(seedBlogs));
+    } else {
+      // Check if we need to add new seed data without destroying user-added posts
+      const parsed = JSON.parse(stored);
+      const originalSeedIds = seedBlogs.map(b => b.id);
+      
+      const missingSeeds = seedBlogs.filter(seed => !parsed.some(p => p.id === seed.id));
+      if (missingSeeds.length > 0) {
+        // Only append missing items
+        const combined = [...parsed, ...missingSeeds].sort((a,b) => b.id - a.id);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(combined));
+      }
     }
   }
 

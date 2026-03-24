@@ -1,83 +1,10 @@
-export const featuredPosts = [
-    {
-        id: 1,
-        title: "The Silence of East Bali",
-        category: "Travel",
-        image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&q=80&w=800",
-        size: "large", // vertical
-        desc: "A cultural walk through hidden valleys."
-    },
-    {
-        id: 2,
-        title: "Why You Should Read More Fiction",
-        category: "Books",
-        image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=800",
-        size: "small", // horizontal/small
-        desc: "Escaping reality is good for the soul."
-    },
-    {
-        id: 3,
-        title: "Digital Minimalism",
-        category: "Tech",
-        image: "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&q=80&w=800",
-        size: "medium",
-        desc: "Cutting down screen time."
-    },
-    {
-        id: 4,
-        title: "Uluwatu Sunsets",
-        category: "Life",
-        image: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&q=80&w=800",
-        size: "medium",
-        desc: "Finding peace in chaos."
-    },
-    {
-        id: 5,
-        title: "Coffee & Code",
-        category: "Reflection",
-        image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=800",
-        size: "small",
-        desc: "My morning ritual."
-    }
-];
-
-export const books = [
-    {
-        id: 1,
-        title: "The Alchemist",
-        author: "Paulo Coelho",
-        cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=400",
-        review: "A journey of self-discovery."
-    },
-    {
-        id: 2,
-        title: "Atomic Habits",
-        author: "James Clear",
-        cover: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=400",
-        review: "Small changes, big results."
-    },
-    {
-        id: 3,
-        title: "Sapiens",
-        author: "Yuval Noah Harari",
-        cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&q=80&w=400",
-        review: "Brief history of humankind."
-    }
-];
-
-export const postcards = [
-    "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&q=80&w=400",
-    "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&q=80&w=400",
-    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=400",
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=400"
-];
-
 export const blogs = [
   {
     id: 1,
     title: 'The Beauty of Silence',
-    excerpt: 'Finding peace in a noisy world. A reflection on how silence shapes our thoughts.',
-    date: 'Oct 12, 2026',
+    excerpt: 'Finding peace in a noisy world. A reflection on how silence shapes our thoughts and helps us connect with our inner selves.',
+    content: '<p>In a world that never stops talking, silence has become a rare luxury. We fill every gap with noise — podcasts during commutes, music while cooking, notifications that ping every few seconds.</p><p>But there is profound beauty in silence. It is in silence that we hear ourselves think. It is in the quiet moments between conversations that the deepest connections are formed.</p><blockquote>Silence is not empty. It is full of answers.</blockquote><p>I started practicing deliberate silence six months ago. Every morning, before reaching for my phone, I sit with my coffee and simply observe — the light filtering through the curtains, the distant hum of the city waking up, the rhythm of my own breathing.</p><p>What I\'ve discovered is that silence isn\'t about the absence of sound. It\'s about the presence of awareness. When we stop drowning ourselves in external noise, we begin to hear the whispers of our own intuition.</p><h2>The Practice</h2><p>Start small. Five minutes of intentional silence each day. No phone, no music, no conversation. Just you and your thoughts. It will feel uncomfortable at first — that\'s your mind resisting the unfamiliar. But stay with it.</p><p>Over time, you\'ll find that silence becomes your sanctuary. A place where creativity flows freely, where solutions emerge unbidden, where peace resides.</p>',
+    date: 'Mar 12, 2026',
     readTime: '4 min read',
     category: 'Philosophy',
     imageUrl: 'https://images.unsplash.com/photo-1476820865390-c52aeebb9891?auto=format&fit=crop&q=80&w=800',
@@ -85,8 +12,9 @@ export const blogs = [
   {
     id: 2,
     title: 'Why I Prefer Books Over Parties',
-    excerpt: 'An exploration of introversion and the deep connections found in literature.',
-    date: 'Sep 28, 2026',
+    excerpt: 'An exploration of introversion and the deep connections found in literature that no social gathering can replicate.',
+    content: '<p>There\'s a particular kind of guilt that comes with declining an invitation. "You should get out more," they say, as if the walls of my apartment are a prison rather than a sanctuary.</p><p>But here\'s what they don\'t understand: I am not missing out. I am choosing in.</p><h2>The World Inside Pages</h2><p>When I open a book, I\'m not escaping reality — I\'m expanding it. Through literature, I\'ve lived a thousand lives, walked through centuries of history, and explored the deepest caverns of human emotion.</p><blockquote>A reader lives a thousand lives before he dies. The man who never reads lives only one. — George R.R. Martin</blockquote><p>At a party, conversations skim the surface. "What do you do?" "How\'s work?" "Have you seen that new show?" These exchanges, while pleasant, rarely scratch the itch for genuine connection.</p><p>Books, on the other hand, take me to places no cocktail party ever could. They challenge my assumptions, reshape my worldview, and introduce me to characters more complex and honest than most people I\'d meet at a gathering.</p><h2>The Introvert\'s Superpower</h2><p>Introversion isn\'t shyness. It\'s a different way of processing the world — one that values depth over breadth, reflection over reaction, and meaningful solitude over superficial socializing.</p>',
+    date: 'Feb 28, 2026',
     readTime: '6 min read',
     category: 'Book Review',
     imageUrl: 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&q=80&w=800',
@@ -94,16 +22,18 @@ export const blogs = [
   {
     id: 3,
     title: 'Observing the Night Sky',
-    excerpt: 'There is something profoundly humbling about staring into the abyss of stars.',
-    date: 'Sep 15, 2026',
+    excerpt: 'There is something profoundly humbling about staring into the abyss of stars. A meditation on our place in the cosmos.',
+    content: '<p>Last Tuesday, I drove forty minutes outside the city to find proper darkness. Not the amber-tinged darkness of suburban streets, but real, honest darkness — the kind where you can feel the weight of the universe pressing down.</p><p>I laid on the hood of my car and looked up.</p><h2>The First Few Minutes</h2><p>At first, you see very little. Your eyes, so accustomed to screens and artificial light, need time to adjust. But slowly, like a photograph developing, the sky reveals itself.</p><p>First the bright stars — Sirius, Betelgeuse, the familiar constellations. Then the fainter ones, filling in the gaps between what you thought was empty space. And finally, if you\'re patient, the Milky Way itself — a pale river of light stretching from horizon to horizon.</p><blockquote>We are all in the gutter, but some of us are looking at the stars. — Oscar Wilde</blockquote><p>In that moment, every worry, every deadline, every petty conflict dissolved into insignificance. I was a single consciousness on a tiny rock, floating through an incomprehensible vastness.</p><p>And somehow, that made everything feel okay.</p>',
+    date: 'Feb 15, 2026',
     readTime: '3 min read',
     category: 'Philosophy',
   },
   {
     id: 4,
     title: 'The Rain and Coffee',
-    excerpt: 'A quiet afternoon accompanied by the sound of rain drops on the window.',
-    date: 'Aug 20, 2026',
+    excerpt: 'A quiet afternoon accompanied by the sound of rain drops on the window. Why the simplest moments are often the most memorable.',
+    content: '<p>There is a Japanese word — <em>komorebi</em> — that describes the interplay of sunlight filtering through leaves. There should be a word for this too: the gentle percussion of rain against glass, paired with the warmth of a ceramic mug between your palms.</p><p>Today is one of those days. The kind where the sky is a uniform grey, the air smells of wet earth, and the world seems to slow down just enough for you to catch your breath.</p><h2>The Perfect Cup</h2><p>I\'ve learned that coffee is not about caffeine. It\'s about ritual. The grinding of beans, the careful pour, the first wisp of steam rising from the cup — these are meditative acts disguised as routine.</p><p>On rainy days, I brew a pour-over. Not because it tastes better than my espresso machine (though it does), but because it demands patience. You cannot rush a pour-over. You must stand and watch, timing each pour, letting the water take its time through the grounds.</p><blockquote>Almost everything will work again if you unplug it for a few minutes. Including you.</blockquote><p>The rain continues. My coffee grows cold. And I realize I\'ve been sitting here for an hour, doing absolutely nothing productive. It might be the most valuable hour of my week.</p>',
+    date: 'Jan 20, 2026',
     readTime: '5 min read',
     category: 'Personal',
     imageUrl: 'https://images.unsplash.com/photo-1515549832467-8783363e19b6?auto=format&fit=crop&q=80&w=800',
@@ -111,18 +41,59 @@ export const blogs = [
   {
     id: 5,
     title: 'My Favorite Indie Authors',
-    excerpt: 'Sharing some hidden gems from the indie publishing world that deserve more attention.',
-    date: 'Aug 02, 2026',
+    excerpt: 'Sharing some hidden gems from the indie publishing world that deserve more attention than they currently receive.',
+    content: '<p>The literary world has a gatekeeping problem. The same handful of names dominate bestseller lists year after year, while extraordinary voices go unheard simply because they chose independence over traditional publishing.</p><h2>1. Anika Patel — "The Cartography of Loss"</h2><p>Patel\'s debut novel reads like a letter from a friend you didn\'t know you needed. Her prose is spare but devastating, each sentence carrying the weight of an entire paragraph.</p><h2>2. Marcus Wei — "Eleven Stations"</h2><p>A collection of interconnected short stories set in a single subway system. Wei captures the accidental intimacy of public transit — the silent negotiations of personal space, the stories we invent for strangers.</p><h2>3. Lena Okoye — "Quiet Revolutions"</h2><p>Okoye writes about introversion with the kind of insight that makes you feel genuinely seen. Her essays are warm, witty, and deeply researched.</p><blockquote>The best books are the ones that tell you what you already know in ways you\'ve never heard.</blockquote><p>Support indie authors. Buy their books, leave reviews, tell your friends. The literary ecosystem is richer when diverse voices can sustain themselves.</p>',
+    date: 'Jan 02, 2026',
     readTime: '7 min read',
     category: 'Book Review',
   },
   {
     id: 6,
     title: 'Walking Through the Pine Forest',
-    excerpt: 'My solo trip to the mountains and how solitude brings clarity.',
-    date: 'Jul 15, 2026',
+    excerpt: 'My solo trip to the mountains and how solitude brings clarity that no group adventure ever could.',
+    content: '<p>The trail began at a parking lot and ended at a silence so complete it had texture. Between those two points: three hours of walking, thinking, and slowly shedding the accumulated noise of daily life.</p><p>I came here alone. Not because I couldn\'t find company, but because some experiences are meant to be unshared — savored in their entirety by a single consciousness.</p><h2>The First Hour</h2><p>Your mind fights you. It replays conversations, composes emails, plans tomorrow\'s meeting. This is normal. The mind is a machine built for productivity, and it resists being taken offline.</p><h2>The Second Hour</h2><p>Something shifts. The mental chatter fades, replaced by sensory awareness. You notice the particular shade of green where sunlight strikes moss. You hear the layered symphony of wind through different densities of pine needles.</p><h2>The Third Hour</h2><p>You arrive at a clearing. Below you, the valley stretches to the horizon. Above, the sky is impossibly blue. And in this moment, the question you\'ve been carrying — the one about your career, your relationship, your purpose — answers itself.</p><blockquote>In every walk with nature, one receives far more than he seeks. — John Muir</blockquote>',
+    date: 'Dec 15, 2025',
     readTime: '8 min read',
     category: 'Travel',
-    imageUrl: 'https://picsum.photos/id/28/800/500',
-  }
+    imageUrl: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: 7,
+    title: 'The Art of Doing Nothing',
+    excerpt: 'In a productivity-obsessed culture, doing nothing is a radical act of self-care and the most underrated life skill.',
+    content: '<p>We have turned rest into a sin. Every moment must be optimized, every gap filled with learning or producing or consuming. Even our leisure has become performative — curated playlists, productivity podcasts, "self-improvement" documentaries.</p><p>When did doing nothing become so terrifying?</p><h2>The Italian Philosophy</h2><p>The Italians have a concept called <em>dolce far niente</em> — the sweetness of doing nothing. Not laziness, but the conscious choice to simply exist without agenda.</p><p>I tried it last Sunday. I woke up without an alarm. I didn\'t check my phone. I sat on my balcony and watched the world go by. No podcast, no book, no "productive" hobby.</p><p>It was one of the most difficult things I\'ve done in months.</p><blockquote>Never underestimate the power of doing nothing. The world is spinning. You don\'t have to.</blockquote><p>By noon, something remarkable happened. My mind, freed from the tyranny of constant stimulation, began to wander. And in that wandering, I found ideas I didn\'t know I had, feelings I\'d been suppressing, and a deep, unfamiliar sense of contentment.</p><h2>The Science</h2><p>Neuroscience supports this. The "default mode network" — the brain\'s resting state — is active when we daydream, and it\'s responsible for creativity, self-reflection, and empathy. We are starving our brains of their most creative mode.</p>',
+    date: 'Dec 01, 2025',
+    readTime: '5 min read',
+    category: 'Philosophy',
+    imageUrl: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: 8,
+    title: 'Letters I\'ll Never Send',
+    excerpt: 'On the therapeutic practice of writing letters to people, places, and past versions of yourself — without ever pressing send.',
+    content: '<p>Dear sixteen-year-old me,</p><p>You\'re going to feel out of place for a very long time. You\'ll watch your classmates navigate social situations with an ease that feels superhuman. You\'ll wonder if there\'s something fundamentally wrong with you.</p><p>There isn\'t.</p><p>What you have — this ability to observe, to feel deeply, to sit with uncomfortable thoughts instead of running from them — these are not weaknesses. They are your greatest gifts. You just don\'t know it yet.</p><h2>The Practice</h2><p>I started writing unsent letters two years ago, on the recommendation of a therapist. The rules are simple: write to anyone or anything. Be completely honest. Never send it.</p><p>I\'ve written to my father about the things we never discuss. To my college roommate who I lost touch with. To the city I left behind. To the version of myself who made the choice I didn\'t.</p><blockquote>Writing is the only way I know to make silence speak.</blockquote><p>Each letter is a small act of release. Not forgiveness exactly, not closure, but something gentler — acknowledgment. These feelings existed. They were real. And now they live on paper instead of in my chest.</p>',
+    date: 'Nov 18, 2025',
+    readTime: '4 min read',
+    category: 'Personal',
+  },
+  {
+    id: 9,
+    title: 'The Bookshop at the End of the Lane',
+    excerpt: 'A love letter to independent bookstores and the dying art of browsing without a search bar.',
+    content: '<p>There\'s a bookshop in my neighborhood that defies every law of retail economics. It\'s tucked between a laundromat and a Thai restaurant. The signage is faded. The door sticks. Inside, books are organized by what the owner calls "vibes" rather than genre.</p><p>It is my favorite place on Earth.</p><h2>The Algorithm of Serendipity</h2><p>When you search for a book on Amazon, you find exactly what you\'re looking for. When you browse a physical bookshop, you find what you didn\'t know you needed.</p><p>Last week, I went in looking for a Murakami novel and left with a book about the history of cartography, a slim volume of Portuguese poetry, and a cookbook for meals you can eat while reading.</p><blockquote>A bookshop is not just a shop. It is a confession that the world is richer and stranger than we can possibly imagine.</blockquote><p>The owner, Mrs. Chen, has been running this shop for thirty-one years. She knows every book on every shelf. She once recommended me a novel based on the color of my scarf, and it became one of my all-time favorites.</p><p>We need these spaces. Not because we can\'t buy books online, but because some discoveries require wandering. Some connections require a human being who looks at you and says, "I think you might like this."</p>',
+    date: 'Nov 02, 2025',
+    readTime: '6 min read',
+    category: 'Book Review',
+    imageUrl: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80&w=800',
+  },
+  {
+    id: 10,
+    title: 'Three Days in Kyoto',
+    excerpt: 'Temples, tea ceremonies, and the art of slowing down in Japan\'s ancient capital.',
+    content: '<p>Kyoto doesn\'t reveal itself to the hurried. It is a city designed for contemplation — its beauty calibrated to reward patience and attention.</p><h2>Day One: Arrival</h2><p>I arrived at Kyoto Station in the late afternoon, that golden hour when sunlight turns the city\'s wooden architecture into honey. I dropped my bag at a traditional ryokan (inn) and walked to the nearest temple, Sanjūsangen-dō.</p><p>Inside: 1,001 statues of Kannon, the Buddhist deity of compassion. Each one slightly different, each carved with extraordinary precision over 700 years ago. I stood there for thirty minutes, overwhelmed.</p><h2>Day Two: The Gardens</h2><p>Japanese gardens are not about nature. They are about the relationship between nature and human consciousness. Every stone is placed with intention. Every view is composed like a painting.</p><p>At the rock garden of Ryōan-ji, I sat on the wooden veranda and tried to see all fifteen stones at once. (You can\'t — that\'s the point.)</p><blockquote>In Japanese aesthetics, imperfection is not a flaw. It is the fingerprint of time.</blockquote><h2>Day Three: Tea</h2><p>I attended a tea ceremony in a small, undecorated room. The host spent forty-five minutes preparing a single cup of matcha. Every movement was deliberate, every gesture carried centuries of tradition. The tea itself was almost beside the point.</p><p>I left Kyoto knowing I had only scratched the surface. Some cities are like that — they give you just enough to know how much remains unseen.</p>',
+    date: 'Oct 15, 2025',
+    readTime: '9 min read',
+    category: 'Travel',
+    imageUrl: 'https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=800',
+  },
 ];

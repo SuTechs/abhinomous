@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <main className="not-found-page">
       <Helmet>
-        <title>404 | The Introverted Blog</title>
+        <title>404 | Abhinomous | The Introverted Blog</title>
       </Helmet>
 
       <div className="not-found-content">

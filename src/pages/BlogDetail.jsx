@@ -39,7 +39,7 @@ const BlogDetail = () => {
     return (
         <article className="blog-detail-page">
             <Helmet>
-                <title>{post.title} | The Introverted Blog</title>
+                <title>{post.title} | Abhinomous | The Introverted Blog</title>
                 <meta name="description" content={post.excerpt} />
                 <meta property="og:title" content={post.title} />
                 <meta property="og:description" content={post.excerpt} />

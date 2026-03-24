@@ -28,7 +28,7 @@ export default function Login() {
   return (
     <main className="login-page">
       <Helmet>
-        <title>Login | The Introverted Blog</title>
+        <title>Login | Abhinomous | The Introverted Blog</title>
       </Helmet>
 
       {/* Decorative background circles */}

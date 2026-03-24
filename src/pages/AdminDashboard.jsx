@@ -31,7 +31,7 @@ export default function AdminDashboard() {
   return (
     <main className="admin-page">
       <Helmet>
-        <title>Dashboard | The Introverted Blog</title>
+        <title>Dashboard | Abhinomous | The Introverted Blog</title>
       </Helmet>
 
       <div className="admin-container">
