@@ -1,0 +1,35 @@
+{
+  "name": "abhinomous",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode mock",
+    "prod": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/copy-404.mjs",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "release": "node scripts/release.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "@tiptap/extension-image": "^3.31.4",
+    "@tiptap/pm": "^3.31.4",
+    "@tiptap/react": "^3.31.4",
+    "@tiptap/starter-kit": "^3.31.4",
+    "dompurify": "^3.4.16",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "license": "MIT",
+  "description": "A personal site template: blogs, book reviews, upskilling log and life photos, with a hidden admin. Static React + Supabase."
+}

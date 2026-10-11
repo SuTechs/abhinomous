@@ -1,0 +1,14 @@
+# Apache hosts: serve the app for deep links like /blogs/my-post
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ /index.html [L]
+</IfModule>
+
+# Keep the admin out of search engines
+<IfModule mod_headers.c>
+  <If "%{REQUEST_URI} =~ m#^/goku#">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </If>
+</IfModule>

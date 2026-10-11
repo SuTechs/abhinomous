@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #ECEEF1;
+  --color-ink: #16171C;
+  --color-cobalt: #2F54EB;
+  --color-tangerine: #FF7A2F;
+  --color-peach: #FFC4A3;
+  --color-muted: #5A5F6B;
+  --color-line: #E3E6EB;
+  --color-mist: #DCE0E7;
+  --color-fog: #E6E9EE;
+  --color-ash: #A3A7B3;
+  --color-coal: #2A2C35;
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+  }
+  ::selection {
+    background: var(--color-tangerine);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-cobalt);
+    outline-offset: 3px;
+  }
+}
+
+/* Rich text written in the admin editor (also used inside the editor itself). */
+.prose-ab {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #2A2C35;
+  overflow-wrap: break-word;
+}
+.prose-ab > * + * { margin-top: 1.25em; }
+.prose-ab h2 { margin-top: 2em; font-size: 1.875rem; font-weight: 800; line-height: 1.15; letter-spacing: -0.03em; color: var(--color-ink); }
+.prose-ab h3 { margin-top: 1.75em; font-size: 1.375rem; font-weight: 700; line-height: 1.25; letter-spacing: -0.02em; color: var(--color-ink); }
+.prose-ab a { color: var(--color-cobalt); text-decoration: underline; text-underline-offset: 3px; }
+.prose-ab strong { font-weight: 700; color: var(--color-ink); }
+.prose-ab ul { list-style: disc; padding-left: 1.4em; }
+.prose-ab ol { list-style: decimal; padding-left: 1.4em; }
+.prose-ab li + li { margin-top: 0.4em; }
+.prose-ab li > p { margin: 0; }
+.prose-ab blockquote { border-left: 4px solid var(--color-tangerine); padding-left: 1em; font-size: 1.375rem; font-weight: 600; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-ink); }
+.prose-ab img { display: block; width: 100%; height: auto; border-radius: 20px; }
+.prose-ab code { font-family: var(--font-mono); font-size: 0.88em; background: var(--color-fog); padding: 0.1em 0.35em; border-radius: 6px; }
+.prose-ab pre { font-family: var(--font-mono); font-size: 0.9rem; background: var(--color-ink); color: #fff; padding: 1em 1.2em; border-radius: 16px; overflow-x: auto; }
+.prose-ab pre code { background: none; padding: 0; color: inherit; }
+.prose-ab hr { border: 0; border-top: 1px solid var(--color-line); }
